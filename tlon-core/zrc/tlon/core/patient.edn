@@ -1,0 +1,7 @@
+{ns tlon.core.patient
+ import #{tlon.core.fhir}
+
+ Patient
+ {:zen/tags #{zen/schema}
+  :zen/desc "Basic profile for Tlon patient"
+  :confirms #{tlon.core.fhir/Patient}}}
