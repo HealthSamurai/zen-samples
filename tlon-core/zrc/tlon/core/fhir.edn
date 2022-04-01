@@ -1,5 +1,6 @@
 {ns tlon.core.fhir
- import #{hl7-fhir-r4-core.Patient}
+ import #{hl7-fhir-r4-core.Patient
+          hl7-fhir-r4-core.Coding}
 
  Patient hl7-fhir-r4-core.Patient/schema
- }
+ Coding hl7-fhir-r4-core.Coding/schema}
