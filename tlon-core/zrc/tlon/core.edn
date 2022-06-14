@@ -1,2 +1,3 @@
 {ns tlon.core
-import #{tlon.core.patient}}
+import #{tlon.core.patient
+         tlon.core.organization}}

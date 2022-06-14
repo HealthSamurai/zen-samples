@@ -1,9 +1,11 @@
 {ns tlon.core.fhir
  import #{hl7-fhir-r4-core.Patient
           hl7-fhir-r4-core.Coding
+          hl7-fhir-r4-core.Organization
           zen.fhir}
 
  Patient hl7-fhir-r4-core.Patient/schema
+ Organization hl7-fhir-r4-core.Organization/schema
  Coding hl7-fhir-r4-core.Coding/schema
  profile zen.fhir/profile-schema
  extension zen.fhir/extension-schema
