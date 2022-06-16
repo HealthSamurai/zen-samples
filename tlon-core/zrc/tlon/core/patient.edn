@@ -28,9 +28,7 @@
   :keys
   {:ombCategory {:type     zen/vector
                  :maxItems 5
-                 :every    {:confirms #{tlon.core.fhir/Coding}
-                            :fhir/binding {:valueset omb-race-category
-                                           :strength :required}}}
+                 :every    {:confirms #{tlon.core.fhir/Coding}}}
    :text {:type zen/string}}}
 
 
@@ -79,5 +77,4 @@
    :communication
    {:type zen/vector
     :every {:type zen/map
-            :keys {:language {:fhir/binding {:valueset language-codes
-                                             :strength :extensible}}}}}}}}
+            :keys {}}}}}}
