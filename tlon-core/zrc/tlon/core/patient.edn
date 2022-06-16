@@ -22,7 +22,7 @@
       {:code "ASKU" :display "Asked but no answer"}]}]}}
 
  race
- {:zen/tags #{zen/schema tlon.core.fhir/extension }
+ {:zen/tags #{zen/schema }
   :type     zen/map
   :require #{:text}
   :keys
