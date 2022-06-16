@@ -11,7 +11,7 @@
  extension zen.fhir/extension-schema
 
  ValueSet
- {:zen/tags #{zen/schema}
+ {:zen/tags #{ zen/tag zen/schema}
   :type zen/any}
 
  }
