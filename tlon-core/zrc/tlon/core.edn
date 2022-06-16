@@ -1,3 +1,4 @@
 {ns tlon.core
 import #{tlon.core.patient
-         tlon.core.organization}}
+         tlon.core.organization
+         tlon.core.fhir}}
