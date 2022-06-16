@@ -3,6 +3,8 @@
 
  Organization
  {:zen/tags #{tlon.core.fhir/profile zen/schema}
+  :zen.fhir/version "0.5.11"
+  :zen.fhir/profileUri "https://hs/tlon"
   :zen/desc "Basic profile for Tlon organization"
   :confirms #{tlon.core.fhir/Organization}
   :type     zen/map
